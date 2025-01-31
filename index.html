@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Platter</title>
+    <!-- Daisy-Tailwindcss -->
+     
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+
+<!-- font-awesome -->
+<script src="https://kit.fontawesome.com/506f09c1f1.js" crossorigin="anonymous"></script>
+<!-- style -->
+ <style>
+    .font-sora{
+        font-family: "Poppins", serif;
+    }
+ </style>
+ <!-- config -->
+ <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primary: '#rgb(23, 152, 0)',
+
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sora">
+    <!-- header -->
+     <header class="md:container lg:max-w-6xl mx-auto space-y-20 mb-28 bg-gray-50 ">
+        <!-- nav -->
+         <nav class="pt-10 mb-50">
+            <div class="flex justify-evenly">
+                <!-- logo -->
+                <div>
+                    <img src="Image/logo-header.png" alt="">
+                </div>
+                <!-- contact -->
+                 <div>
+                    <ul class="flex gap-3">
+                        
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact us</a></li>
+                       
+                    </ul>
+                 </div>
+                 <!-- button -->
+                 <div class="flex gap-5">
+                    <img src="Image/Frame 7.png" alt="">
+                    <button class="btn btn-outline btn-success text-black ">Login</button>
+                    <button class="btn btn-success bg-green-600 text-white">Register</button>
+
+                 </div>
+
+            </div>
+         </nav>
+         <!-- hed -->
+          <!-- text -->
+          <div class="text-center items-center justify-center mt-150">
+            <h2 class="font-semibold text-5xl mb-5 ">Freshness <span>You Can</span> <br>
+                <span>Count</span> On, Prices You’ll Love!</h2>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+                     staples, we’ve got you covered every day!</p>
+                    </div>
+                    <!-- img -->
+                    <div class=" flex  justify-center items-center "> 
+                        <img  src="Image/hero-vegetables.png" alt="">
+                    </div>
+     </header>
+     <!-- main -->
+      <main class="md:container lg:max-w-6xl mx-auto">
+        <!-- amar iccha -->
+         <section class="md:container mx-auto mb-28 ">
+            <!-- taitle -->
+            <h2 class="font-semibold text-5xl mb-16 text-center ">Vegetables Section</h2>
+            <!-- card -->
+            <div class="grid md:grid-cols-1  lg:grid-cols-3 justify-center items-center text-right m-10 p-20 gap-5">
+                <!-- card-1 -->
+                <div class="card bg-green-600  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="rounded-xl w-1/2" src="Image/tomato.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Tomato</h2>
+                      <p>The tomato Solanum lycopersicum, is a plant whose fruit is an edible berry that is eaten as a vegetable.</p>
+                      <div class="card-actions">
+                        <button class="bg-slate-50 px-3 py-2 rounded-lg">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card-2 -->
+                <div class="card bg-green-600  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="rounded-xl w-1/2" src="Image/potato.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Potato</h2>
+                      <p>The potato Solanum lycopersicum, is a plant whose fruit is an edible berry that is eaten as a vegetable.</p>
+                      <div class="card-actions">
+                        <button class="bg-slate-50 px-3 py-2 rounded-lg">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card-3 -->
+                <div class="card bg-green-600  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="rounded-xl w-1/2" src="Image/onion.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Onion</h2>
+                      <p>The onion Solanum lycopersicum, is a plant whose fruit is an edible berry that is eaten as a vegetable.</p>
+                      <div class="card-actions">
+                        <button class="bg-slate-50 px-3 py-2 rounded-lg">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+
+         </section>
+         <!-- Services -->
+          <section class="mb-28">
+            <h3 class="text-green-600 text-4xl font-semibold mb-10">Services</h3>
+            <!-- card -->
+             <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-5">
+                <!-- card-1 -->
+                <div class="text-center shadow-lg rounded-xl p-5 m-5 bg-gray-50">
+                    <div class="avatar">
+                        <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                          <img src="Image/service.png" alt="" class="bg-white  w-2 h-2" >
+                        </div>
+                      </div>
+                      <h3 class="font-semibold text-2xl">Services</h3>
+                      <P>24-hour services are services that are available 24 hours a day, 7 days a week. They are also known as 24/7 services. </P>
+                </div>
+                  <!-- card-2 -->
+                  <div class="text-center shadow-lg rounded-xl p-5 m-5 bg-gray-50">
+                    <div class="avatar">
+                        <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                          <img class="bg-white max-w-xs" src="Image/delivery.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="font-semibold text-2xl">Delivery</h3>
+                      <P>24-hour services are services that are available 24 hours a day, 7 days a week. They are also known as 24/7 services. </P>
+                </div>
+                  <!-- card-3 -->
+                  <div class="text-center shadow-lg rounded-xl p-5 m-5 bg-gray-50">
+                    <div class="avatar">
+                        <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                          <img class="bg-white max-w-xs" src="Image/healthy.png" alt="">
+                        </div>
+                      </div>
+                      <h3 class="font-semibold text-2xl">Healthy Products</h3>
+                      <P>24-hour services are services that are available 24 hours a day, 7 days a week. They are also known as 24/7 services. </P>
+                </div>
+
+
+             </div>
+          </section>
+          <!-- Popular Products -->
+           <section>
+            <h3 class="text-green-600 text-4xl font-semibold mb-10">Popular Products</h3>
+            <!-- grid -->
+             <div class="grid md:grid-cols-1 lg:grid-cols-2">
+                <!-- card1 -->
+                 <div class="w-3/6/12 shadow-lg rounded-xl bg-gradient-to-r from-green-500 to-green-300 p-10 ">
+                    <h3 class="text-white text-4xl font-semibold mb-10">30% Off</h3>
+                    <p>diccover a world of treats, toys and <br>
+                        essentlals handpicked for</p>
+                        <button class="bg-slate-50 px-3 py-2 rounded-lg">Buy Now</button>
+                        <img src="Image/vegetable-offer.png" alt="" class="text-end justify-end items-end">
+
+                 </div> 
+                 <!-- card-9 -->
+                 <div class="flex">
+                    <div><img src="Image/tomato.png" alt=""></div>
+                    <div >
+                        
+                        
+                        <div class="flex">
+                            <div><i class="fa-solid fa-star bg-amber-400"></i></div>
+                        </div>
+                        <p>4.5</p>
+
+                    </div>
+                    <h4>Onion 1 KG</h4>
+                    <p>$39.99</p>
+
+                 </div>
+             </div>
+
+           </section>
+          
+
+      </main>
+      <!-- footer -->
+      <footer></footer>
+    
+</body>
+</html>
